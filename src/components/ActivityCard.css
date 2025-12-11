@@ -1,0 +1,70 @@
+/* ActivityCard.css */
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-left: 6px solid var(--school-red);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.bus-a-card {
+  border-left: 6px solid #007bff;
+}
+
+.activity-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.activity-info {
+  padding: 20px;
+}
+
+.activity-title {
+  font-size: 1.6rem;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  color: var(--school-red);
+}
+
+.activity-time {
+  font-size: 0.95rem;
+  margin: 0 0 10px 0;
+  color: #555;
+  font-weight: 600;
+}
+
+.activity-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media screen and (min-width: 768px) {
+  .activity-card {
+    flex-direction: row;
+  }
+
+  .activity-image {
+    width: 40%;
+    height: auto;
+  }
+
+  .activity-info {
+    width: 60%;
+  }
+}
