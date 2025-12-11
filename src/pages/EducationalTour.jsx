@@ -29,7 +29,7 @@ import Tarsier from "../assets/Day4/Tarsier.jpg";
 import Loboc from "../assets/Day4/Loboc.jpg";
 import Sikatuna from "../assets/Day4/Sikatuna.jpg";
 import ManilaDavao from "../assets/Day4/ManilaDavao.jpg";
-import CertificatePic from "../assets/certificate.jpg"; 
+import CertificatePic from "../assets/Certificate.jpg"; 
 
 /* Company logo imports */
 import WorldTechCompany from "../assets/companies/WorldTechCompany.jpg";
